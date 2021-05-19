@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <title>Frontend Mentor | Social Media with Dark theme</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header class="header-container">
+  <div class="title-container">
+    <h2>Social Media Dashboard</h2>
+    <h5>Total Followers: 23,004</h5>
+  </div>
+  <div class="switcher-container">
+    <h5>Dark Mode</h5>
+    <div class="switch-path">
+      <a href="#">
+        <div class="switch-knob">
+        </div>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main class="body-container">
+  <section class="social-cards">
+    <div class="card card1">
+      <div class="card-header">
+        <img src="images/icon-facebook.svg"></img>
+        <small>@nathanf</small>
+      </div>
+      <div class="card-body">
+        <h1>1987</h1>
+        <h5>Followers</h5>
+      </div>
+      <div class="card-footer">
+        <h5><i class="fas fa-angle-up"></i> 12 today</h5>
+      </div>
+      
+    </div>
+    <div class="card card2">
+      <div class="card-header">
+        <img src="images/icon-twitter.svg"></img>
+        <small>@nathanf</small>
+      </div>
+      <div class="card-body">
+        <h1>1044</h1>
+        <h5>Followers</h5>
+      </div>
+      <div class="card-footer">
+        <h5><i class="fas fa-angle-up"></i> 99 today</h5>
+      </div>
+      
+    </div>
+    <div class="card cardinsta">
+      <div class="card-header">
+        <img src="images/icon-instagram.svg"></img>
+        <small>@realnathanf</small>
+      </div>
+      <div class="card-body">
+        <h1>11k</h1>
+        <h5>Followers</h5>
+      </div>
+      <div class="card-footer">
+        <h5><i class="fas fa-angle-up"></i> 1099 today</h5>
+      </div>
+      
+    </div>
+    <div class="card card3">
+      <div class="card-header">
+        <img src="images/icon-youtube.svg"></img>
+        <small>Nathan F.</small>
+      </div>
+      <div class="card-body">
+        <h1>8239</h1>
+        <h5>SUBSCRIBERS</h5>
+      </div>
+      <div class="card-footer">
+        <h5><i class="fas fa-angle-down"></i> 144 today</h5>
+      </div>
+      
+    </div>
+    
+  </section>
+  <h2 class="section-divider">Overview - Today</h2>
+  <section class="overview-cards">
+    <div class="overview cards1">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Page Views</h5>
+        <img src="images/icon-facebook.svg">
+      </div>
+      <div class="overview-content">
+        <h1>87</h1>
+        <small><i class="fas fa-angle-up"></i> 3%</small>
+      </div>
+    </div>
+    <div class="overview cards2">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Likes</h5>
+        <img src="images/icon-facebook.svg">
+      </div>
+      <div class="overview-content">
+        <h1>52</h1>
+        <small><i class="fas fa-angle-down"></i> 2%</small>
+      </div>
+    </div>
+    <div class="overview cards3">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Likes</h5>
+        <img src="images/icon-instagram.svg">
+      </div>
+      <div class="overview-content">
+        <h1>5462</h1>
+        <small> <i class="fas fa-angle-up"></i> 2257%</small>
+      </div>
+    </div>
+
+    <div class="overview cards4">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Profile Views</h5>
+        <img src="images/icon-instagram.svg">
+      </div>
+      <div class="overview-content">
+        <h1>52k</h1>
+        <small><i class="fas fa-angle-up"></i> 1375%</small>
+      </div>
+    </div>
+    <div class="overview cards5">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Retweets</h5>
+        <img src="images/icon-twitter.svg">
+      </div>
+      <div class="overview-content">
+        <h1>117</h1>
+        <small><i class="fas fa-angle-up"></i> 303%</small>
+      </div>
+    </div>
+    <div class="overview cards6">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Likes</h5>
+        <img src="images/icon-twitter.svg">
+      </div>
+      <div class="overview-content">
+        <h1>507</h1>
+        <small><i class="fas fa-angle-up"></i> 553%</small>
+      </div>
+    </div>
+    <div class="overview cards7">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Likes</h5>
+        <img src="images/icon-youtube.svg">
+      </div>
+      <div class="overview-content">
+        <h1>107</h1>
+        <small><i class="fas fa-angle-down"></i> 19%</small>
+      </div>
+    </div>
+    <div class="overview cards8">
+      <div class="overview-title" style="margin-bottom:3vh;">
+        <h5>Total Views</h5>
+        <img src="images/icon-youtube.svg">
+      </div>
+      <div class="overview-content">
+        <h1>1407</h1>
+        <small><i class="fas fa-angle-down"></i> 12%</small>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+<link rel="stylesheet" href="style.css">
+</html>
